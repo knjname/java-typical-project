@@ -1,0 +1,9 @@
+
+jar { baseName = 'batch'  }
+
+dependencies {
+	compile("org.springframework.boot:spring-boot-starter-batch")
+	compile("org.hsqldb:hsqldb")
+	compile project(':shared')
+	testCompile("junit:junit")
+}

@@ -1,0 +1,8 @@
+
+jar { baseName = 'web' }
+
+dependencies {
+	compile("org.springframework.boot:spring-boot-starter-web")
+	compile project(':shared')
+	testCompile("org.springframework.boot:spring-boot-starter-test")
+}
